@@ -1,0 +1,179 @@
+nav.menu-principal{
+	background-color: #364157ff;
+	box-shadow:-1px -2px 20px 0px #1E1E1E; 
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+nav.menu-principal .navbar-toggler:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+nav.menu-principal .navbar-brand{
+	padding: 0;
+	margin: 0;
+}
+
+nav.menu-principal .navbar-brand img{
+	height: 4em;
+}
+
+nav.menu-principal ul.navbar-nav li.nav-item a.nav-link{
+	color: #EBCDB7ff;
+	font-size: 25px; 
+}
+
+nav.menu-principal ul.navbar-nav li.nav-item a.nav-link:hover{
+	color: rgb(201, 168, 144);
+	text-decoration: underline;
+	
+}
+
+
+section.beginning{
+	margin-top: 46px;
+}
+
+section.beginning h1{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+	font-weight:1000;
+	font-size: 115px; 
+	color: #364157ff;
+	text-shadow: #5A6C88ff -1px 5px 4px;
+}
+
+section.beginning h2{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+}
+/*
+section.beginning h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+}
+*/
+section.beginning .definicion-hamilton{
+	display: flex;
+	justify-content: center;
+	background-color: #5A6C88ff;
+	width: 100%;
+	padding: 90px;
+}
+
+section.beginning .definicion-hamilton .texto-definicion-hamilton{
+	text-align: justify;
+	font-size: 26px;
+	width: 73%;
+	color: white;
+}
+
+section.beginning .definicion-hamilton .titulo-definicion-hamilton{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+}
+
+section.beginning .definicion-hamilton .texto-definicion-hamilton p{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 35px;
+	font-size: 27px;
+}
+
+section.beginning .container .titulo-hamilton-casa-blanca{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+  color: #5A6C88ff;
+}
+
+
+section.beginning .container .card{
+	position: static;
+	background-color: #5A6C88ff;
+	text-align: justify;
+	padding: 8px;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	width: 100%;
+	border: 0;
+}
+
+section.beginning .container .card .subtitulo-hamilton-casa-blanca{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+section.beginning .container .card .texto-hamilton-casa-blanca{
+	text-align: justify;
+	font-size: 22px;
+	color: white;
+}
+
+section.beginning .container .card a{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+section.beginning .container .hamilton-casa-blanca .card .card-body .card-title{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+@media (max-width: 990px){
+	section.beginning{
+		margin-top: 66px;
+	}
+
+	section.beginning h1{
+		font-size: 85px; 
+	}
+
+	section.beginning h2{
+		font-size: 26px;
+	}
+
+	section.beginning h3{
+		font-size: 21px;
+	}
+}
+
+section.second{
+	margin-top: 46px;
+}
+
+
+
+section.second h1{
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+	font-weight:1000;
+	font-size: 100px; 
+	color: #364157ff;
+	text-shadow: #5A6C88ff -1px 5px 4px;
+}
+
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #364157ff;
+	position: absolute;
+	padding: 25px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
